@@ -1,2 +1,3 @@
 import { io } from "socket.io-client";
-export const socket = io("http://localhost:8000"); 
+let url="https://sketchboard-glsn.onrender.com"; // change it according to environment
+export const socket = io(url); 
