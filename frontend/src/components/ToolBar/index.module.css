@@ -1,0 +1,18 @@
+.toolbar_container{
+    @apply absolute px-5 py-2 top-1/4 left-5 w-48 rounded-md border-black border-2;
+}
+.toolbar_item{
+    @apply py-5 flex flex-col;
+}
+.toolbar_title{
+    color: #012a72
+}
+.toolbar_colors{
+    @apply flex gap-2;
+}
+.toolbar_color{
+    @apply w-5 h-5;
+}
+.toolbar_color:hover{
+    @apply w-5 h-5 border-2 border-[#ececec];
+}
